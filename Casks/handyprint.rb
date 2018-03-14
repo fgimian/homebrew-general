@@ -4,6 +4,7 @@ cask 'handyprint' do
   version '5.4.2'
   sha256 'a5e17bd595a94a239645581ca7f27e38402d5ae7fe46f4ff6a399504d9816045'
 
+  # s3.amazonaws.com/netputing was verified as official when first introduced to the cask
   url "https://s3.amazonaws.com/netputing/handyPrint/handyPrint+v#{version}.dmg"
   name 'handyPrint'
   homepage 'http://www.netputing.com/applications/handyprint-v5/'
