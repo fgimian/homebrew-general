@@ -1,8 +1,8 @@
 require 'open-uri'
 
 cask 'handyprint' do
-  version '5.4.2'
-  sha256 'a5e17bd595a94a239645581ca7f27e38402d5ae7fe46f4ff6a399504d9816045'
+  version '5.5.0'
+  sha256 '9048b6ecdc1685b53bf4158b92916b02dc4e2f1deaf496a5a70226b90f83d815'
 
   # s3.amazonaws.com/netputing was verified as official when first introduced to the cask
   url "https://s3.amazonaws.com/netputing/handyPrint/handyPrint+v#{version}.dmg"
